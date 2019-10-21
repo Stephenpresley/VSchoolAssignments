@@ -1,0 +1,308 @@
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.france {
+    position: static;
+    border: black solid 2px;
+    height: 200px;
+    width: 308px;
+    margin-bottom: 5px;
+}
+
+.blue {
+    background-color: blue;
+    height: 200px;
+    width: 100px;
+    position: relative;
+    left: 0px;
+    display: inline-block;
+}
+
+.white {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    position: relative;
+    left: 0px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+    height: 200px;
+    width: 100px;
+    position: relative;
+    left: 0px;
+    display: inline-block;
+}
+
+.germany {
+    position: static;
+    border: black solid 2px;
+    height: 200px;
+    width: 308px;
+    margin-bottom: 5px;
+}
+
+.black {
+    background-color: black;
+    height: 33%;
+    width: 308px;
+    position: relative;
+}
+
+.gRed {
+    background-color: red;
+    height: 33%;
+    width: 308px;
+    position: relative;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 33%;
+    width: 308px;
+    position: relative;
+}
+
+.madagascar {
+    position: static;
+    border: black solid 2px;
+    height: 200px;
+    width: 308px;
+    margin-bottom: 5px;
+}
+
+.mWhite {
+    background-color: white;
+    height: 100%;
+    width: 33%;
+    position: relative;
+    left: 0px;
+    display: inline-block;
+}
+
+.mRed {
+    background-color: orangered;
+    height: 50%;
+    width: 66%;
+    display: inline-block;
+    position: relative;
+    bottom: 204px;
+    left: 105px;
+}
+
+.green {
+    background-color: green;
+    height: 50%;
+    width: 66%;
+    display: inline-block;
+    position: relative;
+    bottom: 208px;
+    left: 105px;
+}
+
+.switzerland {
+    position: static;
+    border: black solid 2px;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.vert {
+    height: 60%;
+    width: 20%;
+    background-color: white;
+    position: relative;
+    top: 20%;
+    left: 40%;
+}
+
+.horiz {
+    height: 20%;
+    width: 60%;
+    background-color: white;
+    position: relative;
+    bottom: 20%;
+    left: 20%;
+}
+
+.sweden {
+    position: static;
+    border: black solid 2px;
+    background-color: rgb(34, 130, 194);
+    height: 200px;
+    width: 308px;
+    margin-bottom: 5px;
+}
+
+.sVert {
+    height: 100%;
+    width: 15%;
+    background-color: rgb(253, 224, 60);
+    position: relative;
+    left: 33%;
+}
+
+.sHoriz {
+    height: 20%;
+    width: 100%;
+    background-color: rgb(253, 224, 60);
+    position: relative;
+    bottom: 60%;
+}
+
+.gambia {
+    position: static;
+    border: black solid 2px;
+    height: 200px;
+    width: 308px;
+    margin-bottom: 5px;
+}
+
+.gamRed {
+    background-color: crimson;
+    height: 33%;
+    width: 308px;
+    position: relative;
+}
+
+.gamBlue {
+    background-color: darkblue;
+    height: 24%;
+    width: 308px;
+    position: relative;
+    border-top: white solid 10px;
+    border-bottom: white solid 10px;
+}
+
+.gamGreen {
+    background-color: darkgreen;
+    height: 33%;
+    width: 308px;
+    position: relative;
+}
+
+.tonga {
+    position: static;
+    border: black solid 2px;
+    background-color: rgb(202, 0, 0);
+    height: 200px;
+    width: 308px;
+    margin-bottom: 5px;
+}
+
+.tonga2 {
+    position: relative;
+    background-color: white;
+    height: 45%;
+    width: 45%;
+}
+
+.tVert {
+    position: relative;
+    top:10px;
+    left: 57px;
+    background-color: rgb(202, 0, 0);
+    height: 75%;
+    width: 15%;
+}
+
+.tHoriz {
+    position: relative;
+    bottom: 33px;
+    left: 33px;
+    background-color: rgb(202, 0, 0);
+    height: 20%;
+    width: 50%;
+}
+
+.japan {
+    position: static;
+    border: black solid 2px;
+    background-color: white;
+    height: 200px;
+    width: 308px;
+    margin-bottom: 5px;
+}
+
+.circle {
+    position: relative;
+    top: 40px;
+    left: 85px;
+    background-color: rgb(194, 0, 0);
+    border-radius: 50%;
+    height: 60%;
+    width: 40%;
+}
+
+.greece {
+    position: static;
+    border: black solid 2px;
+    background-color: white;
+    height: 200px;
+    width: 308px;
+    margin-bottom: 5px;
+    z-index: 0;
+}
+
+.greece2 {
+    position: static;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.square1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(46, 109, 226);
+    height: 40px;
+    width: 40px;
+}
+
+.square2 {
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+    background-color: rgb(46, 109, 226);
+    height: 40px;
+    width: 40px;
+}
+
+.square3 {
+    position: relative;
+    bottom: 20px;
+    left: 0px;
+    background-color: rgb(46, 109, 226);
+    height: 40px;
+    width: 40px;
+}
+
+.square4 {
+    position: relative;
+    bottom: 60px;
+    left: 60px;
+    background-color: rgb(46, 109, 226);
+    height: 40px;
+    width: 40px;
+}
+
+.line {
+    position: relative;
+    bottom: 110px;
+    background-color: rgb(46, 109, 226);
+    height: 11.11%;
+    width: 100%;
+    z-index: -1;
+    display: inline-grid;
+    margin-bottom: 18.5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form  name='myForm'>
+            <div>Lets get some info from you first.</div>
+            <br>
+            <input type='text' placeHolder='First Name' name='firstName'>
+            <input type="text" placeholder="Last Name" name="lastName">
+            <input type="number" placeholder="Your Age" name="age">
+            <br>
+            <div>What is your gender?</div> 
+            <br>
+                <input value="Male" name="gender" type="radio">Male
+                <input value="Female" name="gender" type="radio">Female
+                <input value="Prefer not to say" name="gender" type="radio">Prefer not to say
+                <input value="Other" name="gender" type="radio">Other
+            <br>
+            <div>Where are you headed?</div>
+            <br>
+            <select name="destination">
+                <option value="Wakanda">Wakanda</option>
+                <option value="West World">West World</option>
+                <option value="Hoth">Hoth</option>
+            </select>
+            <br>
+            <div>Do you have any dietary restrictions?</div>
+            <br>
+                <input value="Vegetarian" name="foodRestrictions" type="checkbox">Vegetarian
+                <input value="Kosher" name="foodRestrictions" type="checkbox">Kosher
+                <input value="Gluten Free" name="foodRestrictions" type="checkbox">Gluten Free
+                <input value="Lactose Free" name="foodRestrictions" type="checkbox">Lactose Free
+                <input value="Carnivore" name="foodRestrictions" type="checkbox">Carnivore
+                <input value="None" name="foodRestrictions" type="checkbox">None
+            <br>
+            <div>Are you a Veteran?</div>
+                <input value="Yes" name="veteran" type="radio">Yes
+                <input value="No" name="veteran" type="radio">No
+            <br>
+            <button>Take Me There!</button>
+
+
+        </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

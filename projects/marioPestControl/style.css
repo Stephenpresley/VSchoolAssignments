@@ -1,0 +1,63 @@
+#header {
+    text-align: center;
+    font-size: 60px;
+}
+/* 
+video {
+    height: 90%;
+    width: 80%;
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+} */
+
+.footer {
+    text-align: center;
+    bottom: 0px;
+    font-size: 20px;
+    display: block;
+}
+
+.footer > ul {
+    list-style: none;
+}
+
+.baddiesList {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(assets/backgroundGif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 800px;
+    color: black;
+}
+
+span {
+    height: 40px;
+    align-self: center;
+    margin: 5px;
+}
+
+img {
+    height: 200px;
+    align-self: center;
+}
+
+.killList {
+    height: 40px;
+    align-self: center;
+    margin: 5px;
+}
+
+.baddies {
+    height: 20px;
+    align-self: center;
+    margin: 5px;
+}
+
+.submit {
+    height: 40px;
+    align-self: center;
+    margin: 5px;
+}

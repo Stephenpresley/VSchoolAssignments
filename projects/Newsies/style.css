@@ -1,0 +1,104 @@
+* {
+    background-color: lightgoldenrodyellow
+}
+h1 {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 100px;
+}
+h2 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+}
+hr {
+    border: 5px solid black;
+}
+h5 {
+    font-family: Georgia;
+    font-size: 15px;
+    display: inline;
+}
+image {
+    float: left;
+}
+h3 {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+.intro {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    border-bottom: 20px solid black
+}
+.loveConnection {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    border-bottom: 20px solid black
+}
+.auto1 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.auto2 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.auto3 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.auto4 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.forSale1 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.forSale2 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.forSale3 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.forSale4 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.obituary1 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.obituary2 {
+    height: 150px;
+    width: 24%;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}

@@ -1,0 +1,230 @@
+* {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.email {
+    height: 100px;
+    width: 100% ;
+}
+
+
+.link {
+    text-align: center;
+    font-size: 30px;
+}
+
+#subFooter {
+    text-align: center;
+    bottom: 0px;
+    font-size: 20px;
+    display: block;
+}
+
+#header1 {
+    display: block;
+    align-content: center;
+}
+
+#header2 {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin: 1px;
+}
+
+#emblem {
+    width: 75%;
+    position: relative;
+    left: 12%;
+}
+
+h1 {
+    font-size: 20px;
+    background-color: aliceblue;
+    color: black;
+    margin: 1px;
+}
+
+h2 {
+    font-size: 15px;
+    background-color: aliceblue;
+    color: black;
+    margin: 1px;
+}
+
+#nav {
+    font-size: 15px;
+    background-color: aliceblue;
+    color: black;
+    margin: 1px;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 5px;
+    background-color: aliceblue;
+    border: aliceblue solid 2px;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 30px 300px 300px 300px;
+    grid-gap: 5px;
+}
+
+#product1 {
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+#product2 {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+#product3 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+#prod1Img {
+    width: 25%;
+    float: left;
+    margin: 5px;
+}
+
+#prod2Img {
+    width: 25%;
+    float: left;
+    margin: 5px;
+}
+
+#founder {
+    grid-row: 1/-1;
+    grid-column: 1/2;
+}
+
+#pwimg {
+    width: 25%;
+    float: left;
+    margin: 5px;
+}
+
+@media (min-width: 500px) {
+    
+    .label1 {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+    
+    #products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 30px 300px 300px 300px 100px;
+        position: relative;
+    }
+
+    #founder {
+        grid-column: 1/-1;
+        grid-row: 4/6;
+    }
+
+    #product1 {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    
+    #product2 {
+        grid-column: 2/4;
+        grid-row: 2/4;
+    }
+    
+    #product3 {
+        grid-column: 4/5;
+        grid-row: 2/4;
+    }
+    
+    #prod1Img {
+        width: 70%;
+        float: left;
+    }
+    
+    #prod2Img {
+        width: 38%;
+        float: left;
+    }
+    
+    #pwimg {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    #emblem {
+        width: 60%;
+        position: relative;
+        left: 20%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    
+    .label1 {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+    
+    #products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30px 300px 300px 300px 300px;
+        position: relative;
+        margin: 25px;
+        grid-gap: 15px;
+    }
+
+    #founder {
+        grid-column: 1/-1;
+        grid-row: 4/6;
+    }
+
+    #product1 {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    
+    #product2 {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    
+    #product3 {
+        grid-column: 1/3;
+        grid-row: 3/5;
+    }
+    
+    #prod1Img {
+        width: 60%;
+        float: left;
+    }
+    
+    #prod2Img {
+        width: 64%;
+        float: left;
+    }
+    
+    #pwimg {
+        width: 25%;
+        float: left;
+    }
+}

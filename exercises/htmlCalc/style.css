@@ -1,0 +1,29 @@
+form {
+    border: black solid 5px;
+    height: 100px;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px
+}
+.add {
+    display: inline-block;
+    background-color: antiquewhite;
+    border-radius: 20px
+
+}
+
+.subtract {
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 20px
+
+}
+
+.multiply {
+    display: inline-block;
+    background-color: seashell;
+    border-radius: 20px
+
+}

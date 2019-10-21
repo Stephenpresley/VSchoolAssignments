@@ -1,0 +1,107 @@
+.one {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: blue;
+    font-size: 100px;
+}
+
+.two {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: red;
+    font-size: 100px;
+}
+
+.three {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: purple;
+    font-size: 100px;
+}
+
+.four {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: peru;
+    font-size: 100px;
+}
+
+.five {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: green;
+    font-size: 100px;
+}
+
+.six {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: yellow;
+    font-size: 100px;
+}
+
+.one:hover {
+    border-radius: 50%;
+    box-shadow: gray 10px 5px 5px;
+    color: grey;
+    transition: border-radius box-shadow;
+    transition-duration: 1s;
+}
+
+.two:hover {
+    border-radius: 50%;
+    box-shadow: gray 10px 5px 5px;
+    color: grey;
+    transition: border-radius box-shadow;
+    transition-duration: 1s;
+}
+
+.three:hover {
+    border-radius: 50%;
+    box-shadow: gray 10px 5px 5px;
+    color: grey;
+    transition: border-radius box-shadow;
+    transition-duration: 1s;
+}
+
+.four:hover {
+    border-radius: 50%;
+    box-shadow: gray 10px 5px 5px;
+    color: grey;
+    transition: border-radius box-shadow;
+    transition-duration: 1s;
+}
+
+.five:hover {
+    border-radius: 50%;
+    box-shadow: gray 10px 5px 5px;
+    color: grey;
+    transition: border-radius box-shadow;
+    transition-duration: 1s;
+}
+
+.six:hover {
+    border-radius: 50%;
+    box-shadow: gray 10px 5px 5px;
+    color: grey;
+    transition: border-radius box-shadow;
+    transition-duration: 1s;
+}

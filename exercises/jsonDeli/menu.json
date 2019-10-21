@@ -1,0 +1,63 @@
+{
+    "appetizers": [
+        {
+            "name": "Blooming Onion",
+            "ingredients": ["onion", "breading"],
+            "description": "Everyone knows what a blooming onion is."
+        },
+        {
+            "name": "Loaded Nachos",
+            "ingredients": ["flower tortilla chips", "melted cheese", "pico de gallo", "jalapenos"],
+            "description": "The best damn nachos you will ever have"
+        }
+    ],
+    //ad infinitum
+    "coldSandwiches": [
+        {
+            "name": "PB&J",
+            "ingredients": ["peanut butter", "apricot jelly", "bread"],
+            "description": "really? you need a description?"
+        },
+        {
+            "name": "Ham Sandwich",
+            "ingredients": ["bread", "ham", "mayo"],
+            "description": "It's a sandwich... with ham"
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "name": "",
+            "ingredients": [""],
+            "description": ""
+        },
+        {
+            "name": ,
+            "ingredients": ,
+            "description": ""
+        }
+    ],
+    "desserts": [
+        {
+            "name": ,
+            "ingredients": ,
+            "description": ""
+        },
+        {
+            "name": ,
+            "ingredients": ,
+            "description": ""
+        }
+    ],
+    "drinks": [
+        {
+            "name": ,
+            "ingredients": ,
+            "description": ""
+        },
+        {
+            "name": ,
+            "ingredients": ,
+            "description": ""
+        }
+    ]
+}

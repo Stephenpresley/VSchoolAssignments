@@ -1,0 +1,9 @@
+form {
+    background-color: aqua;
+    align-content: center;
+    border: black solid 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div {
+    font-size: 20px;
+}
