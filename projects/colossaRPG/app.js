@@ -2,8 +2,8 @@ const userInput = require('readline-sync');
 let isAlive = true;
 let hasWon = false;
 let gotAway = false;
-let inventory = ['Health Potion']
-let eInventory = ['Health Potion', 'Silver', 'Gold', 'Iron Dagger']
+let inventory = ['Health Potion', 'Attack Potion']
+let eInventory = ['Silver', 'Gold', 'Iron Dagger']
 
 function Enemy (name, hp, att) {
     this.name = name
@@ -59,7 +59,7 @@ while(isAlive && enemies.length > 0){
     }else if(choice === 'w'){
         walk()
     }else if(choice === 'd'){
-        console.log(`${name}`, hero.hp, inventory)
+        console.log(`${name}, HP: ${hero.hp}, Att: ${hero.att}, Inventory: ${inventory}`)
     }else {
         isAlive = false
         console.log('You quit? You are a sad, sad little man. And you have my pity.')
@@ -70,7 +70,7 @@ if(enemies.length === 0){
     hasWon === true
     console.log(
         `
-        ▓██   ██▓ ▒█████   █    ██     ██░ ██  ▄▄▄    ██▒   █▓▓█████    █     █░ ▒█████   ███▄    █ 
+        ▓██  ██▓ ▒█████   █    ██     ██░ ██  ▄▄▄    ██▒   █▒▓█████     █     █░ ▒█████   ███▄    █ 
         ▒██  ██▒▒██▒  ██▒ ██  ▓██▒   ▓██░ ██▒▒████▄ ▓██░   █▒▓█   ▀    ▓█░ █ ░█░▒██▒  ██▒ ██ ▀█   █ 
          ▒██ ██░▒██░  ██▒▓██  ▒██░   ▒██▀▀██░▒██  ▀█▄▓██  █▒░▒███      ▒█░ █ ░█ ▒██░  ██▒▓██  ▀█ ██▒
          ░ ▐██▓░▒██   ██░▓▓█  ░██░   ░▓█ ░██ ░██▄▄▄▄██▒██ █░░▒▓█  ▄    ░█░ █ ░█ ▒██   ██░▓██▒  ▐▌██▒
@@ -146,19 +146,27 @@ function enemyAtt(enemy) {
     hero.hp = hero.hp - eAtt
     console.log(`Your enemy has attacked you for ${eAtt} dmg.`)
 }
-let healthPotion
-function useItem(healthPotion){
-    hero.hp = hero.hp += 100
-    return healthPotion
+// let healthPotion
+function useItem(){
+    let choice = userInput.keyIn(`What item do you want to use? (h) Health Potion, (a) Attack Potion, (c) Cancel`, {limit: 'hac'})
+    if(choice === 'h'){
+        hero.hp = hero.hp += 100
+        console.log(`You have healed yourself. Your HP is now ${hero.hp}`)
+    }
+    else if(choice === 'a'){
+        hero.att = hero.att += 25
+        console.log(`You feel invigorated! Your attack has gone up by 25.`)
+    }else if(choice === 'c'){
+        fight()
+    }
 }
 
 function fight(enemy) {
     while(hero.hp > 0 && enemy.hp > 0) {
-        let choice = userInput.keyIn(`What will you do next? (a) attack, (r) run away, or (u) use health potion`, {limit: 'aru'})
+        let choice = userInput.keyIn(`What will you do next? (a) attack, (r) run away, or (u) use an item?`, {limit: 'aru'})
             if(choice === 'u'){
                 useItem()
                 enemyAtt(hero);
-                console.log(`You have healed yourself. Your HP is now ${hero.hp}`)
             }else if (choice === 'a'){
                 heroAtt(enemy);
                 enemyAtt(hero);

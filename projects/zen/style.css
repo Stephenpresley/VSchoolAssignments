@@ -1,0 +1,11 @@
+u {
+    text-decoration-style: dotted;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
