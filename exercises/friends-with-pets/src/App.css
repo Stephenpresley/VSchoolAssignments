@@ -1,0 +1,33 @@
+.friend-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.friend {
+    text-align: center;
+    border: 10px solid #1a1a1a;
+    border-radius: 5px;
+    background-color: #c0d3c5;
+}
+
+.pets {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #1a1a1a;
+    border-radius: 5px;
+}
+
+h1 {
+    background-color: #9e091e;
+}
+
+.pets > h3 {
+    padding: 5px;
+    background-color: #9e091e;
+}
+
+*:hover {
+    box-shadow: #1a1a1a 5px 5px 5px;
+}

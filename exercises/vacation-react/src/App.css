@@ -1,0 +1,10 @@
+.vacation-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.vacation {
+    text-align: center;
+    border: 1px solid black;
+}

@@ -1,0 +1,15 @@
+.heros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+.hero {
+    border: 2px solid gray;
+    text-align: center;
+}
