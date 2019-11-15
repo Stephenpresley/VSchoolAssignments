@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Modular Computing Device (WMCD)",
+        "_id": "123",
+        "imgUrl": "https://vignette.wikia.nocookie.net/avp/images/2/2a/Weyland_Modular_Computing_Device.jpg/revision/latest?cb=20120625185735",
+        "description": "The Modular Computing Device (WMCD) was a device invented by Weyland Corp in 2024 and later perfected by 2073. It provided full audio, visual and kinesthetic enhancement to any room and any site. The WMCD picked up live video feeds from remote receivers and filled any space with visual or audio of an environment in real-time. These devices also recreated a full-surround environment of a specific location from any point in time for either academic study or personal entertainment."
+    },
+    {
+        "name": "Zero-loss Lithium Ion Battery",
+        "_id": "456",
+        "imgUrl": "https://vignette.wikia.nocookie.net/avp/images/e/e9/Lithium-Ion_Battery.jpg/revision/latest?cb=20120625053855",
+        "description": "The Zero-loss Lithium Ion Battery (LIB) is a power source developed by Weyland Corp. They are composed of traditional lithium though held rare metal cathodes along with nano-layered silicon anodes. The latest generation produced by Weyland had ultra-low internal resistance with zero memory loss. These LIBs were used for all manners of equipment from hypersleep Chamber backup systems onboard deep space missions and classroom HoloTabs. A Zero-loss LIB system is capable of being deposited on a single layer of graphene substrate thus making them nearly invisible forms of portable power generation."
+    },
+    {
+        "name": "Parameter Uplink Spectagraph",
+        "_id": "789",
+        "imgUrl": "https://vignette.wikia.nocookie.net/avp/images/4/49/Spectagraph.jpg/revision/latest?cb=20120625054025",
+        "description": "The Parameter Uplink Spectagraph, commonly abbreviated to simply Spectagraph or PUPS, was an automated, orb-shaped three-dimensional mapping device developed by Weyland Corp as the next generation piece of equipment for geologists and engineers. Its purpose was surveying unknown planetary terrain during the pre-terraforming process. This was achieved through an omni-directional laser that created a live 3D map topography along with detailed scanned images being sent to a viewing platform. The shell was composed of a new hyper-conducting material that allowed for smooth self-propelled flight in any atmosphere. A polymer film bio-sensor was used to detect airborne toxins and lifeforms down to 500 nanometers."
+    },
+    {
+        "name": "RLF Reactor",
+        "_id": "124",
+        "imgUrl": "https://vignette.wikia.nocookie.net/avp/images/a/a1/RLF_Reactor.jpg/revision/latest/scale-to-width-down/250?cb=20120625053955",
+        "description": "RLF Reactors are fusion generators created by Weyland Corp with a single first-generation model capable of powering 23 million households or 15 million businesses on an affordable price point with limited maintenance. These are best used for civilian power grids due to their size whilst Weyland RL fusion reactors able to generate terawatt levels of power at a steady pace without any pulse thus making them quite efficient. The blackout percentage of Weyland RLFs were less than 0.01%"
+    },
+    {
+        "name": "Toughened Ceramic Turbine",
+        "_id": "125",
+        "imgUrl": "https://vignette.wikia.nocookie.net/avp/images/4/40/Toughened_Ceramic_Turbine.jpg/revision/latest/scale-to-width-down/180?cb=20120625054103",
+        "description": "While still in the prototype stages, these 18-story turbines, constructed of rare iridium-silicon matrix interspersed with nanocomposite tougheners, have been shown to produce anti-3rd curvature leverage in the testing environment. This amount of power has never been seen before, and Weyland aeronautics engineers are researching a way to enhance SEV space travel performance and in-flight design, possibly eliminating the need for hypersleep in the future of FTL space travel."
+    },
+    {
+        "name": "'Solstice' Solar Array",
+        "_id": "126",
+        "imgUrl": "https://vignette.wikia.nocookie.net/avp/images/2/21/Solstice_Solar_Array.jpg/revision/latest?cb=20130915220607",
+        "description": "Once Weyland’s first enterprise as a fledgling corporation. Today, the Solstice is a best-selling product meeting over half the energy needs of colonies galaxy-wide. Fully-articulating, in-orbit solar arrays deliver uninterrupted, constantly renewable power. Our solar sensors are composed of thin film polymer with polycrystalline silicon distribution. The Solstice is the first and only orbiting solar array used today by the governments of the United States of America, the United Kingdom, Germany, Russia and their colonies, largely serving military power needs due its unique flexibility in power delivery."
+    },
+    {
+        "name": "Atmosphere Processing Plant",
+        "_id": "555",
+        "imgUrl": "https://vignette.wikia.nocookie.net/avp/images/7/73/Atmosphere_Processor.jpg/revision/latest/scale-to-width-down/250?cb=20120625053659",
+        "description": "The Atmosphere Processing Plant[1] (APP),[2] also known as the Atmosphere Processor (AP),[3] Atmospheric Processor or Atmos, is a large automated reactor capable of 'converting' an unbreathable, toxic or otherwise inhospitable atmosphere into one suitable for human habitation. Atmosphere Processors are a key component of extrasolar colonization efforts. The technology was pioneered by Weyland Corp in the first half of the 21st century[4] and was later developed and refined by the Weyland-Yutani Corporation. While the conversion process is entirely automated, a constant crew is required to oversee an APP's maintenance. Often an entire colony will be established for this very purpose, such as Hadley's Hope on Acheron (LV-426)."
+    },
+    {
+        "name": "IM 80",
+        "_id": "444",
+        "imgUrl": "https://vignette.wikia.nocookie.net/avp/images/9/91/IM_80.jpg/revision/latest/scale-to-width-down/250?cb=20120625053811",
+        "description": "The IM 80 or Igneous/Metamorphic Rock Processor is a terraforming tool developed by Weyland Corp. Its purpose is to create better environmental conditions for offworld colonies that contain adverse indigenous terrain. An IM 80 operates through the use of high powered mechanical disturbances working on conjunction with proprietary enzymes introduced into the environment. This leads to the transformation of the soil to become more fertile thus allowing for agricultural and bio-replication uses. Such machines require four individuals to operate it with these being either Weyland planetary engineers or trained civilian contractors. A prototype IM 80 was undergoing trial tists on KOI-854 located outside the heavy ore mining colony at Luther City."
+    },
+    {
+        "name": "Bio-Replicator Pod",
+        "_id": "333",
+        "imgUrl": "https://vignette.wikia.nocookie.net/avp/images/4/43/Bio-replicator_pod.jpg/revision/latest/scale-to-width-down/180?cb=20130915181013",
+        "description": "This remarkable device was introduced in 2058 for use by Weyland planetary engineers. However, recent advancements have made bio-replicator pods available to off-world civilians for home use. Each pod has a database of over 40 million seed varieties and plant DNAs. With the push of a button, it can replicate the requested sample. Growth rates are currently at about 55%, not factoring unsuitable planetary conditions for a given species. At 1 cubic foot in size, an array of thousands of bio-replicator pods can be outfitted to any seeder for industrial use. For household use, it is recommended to store bio-replicator pods outside the home."
+    },
+    {
+        "name": "Atmospheric Pressurizer",
+        "_id": "777",
+        "imgUrl": "https://vignette.wikia.nocookie.net/weyland-ycorporation/images/5/57/Atmospheric_Pressurizer.jpg/revision/latest/scale-to-width-down/256?cb=20120607153412",
+        "description": "Sold exclusively in conjunction with Weyland Atmosphere Processors, the Atmospheric Pressurizer can create a locally adapted micro-pressurized environment to prevent injury, illness or discomfort on off-world colonies with either marginal or oppressive stratospheric hold. On most planets, a standard atmospheric pressure of approximately 1.0 atmosphere at sea level can be achieved, reducing the need for decompression treatments and additional medical personnel in the early stages of terraforming."
+    }
+]

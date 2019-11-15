@@ -1,0 +1,9 @@
+.colors {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.color {
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,53 @@
+.submit {
+  background-image: url('https://img.freepik.com/free-photo/close-up-black-marble-textured-background_53876-63511.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit > input {
+  border: #1a1a1a solid 2px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.submit > button {
+  border-radius: 50%;
+}
+
+.submit > button:hover {
+  background-color: aqua;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px;
+  transition: 1s;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  border: #1a1a1a solid 5px;
+  border-radius: 10px;
+  text-align: center;
+  background-image: url('https://images.all-free-download.com/images/graphicthumb/wood_grain_picture_169384.jpg');
+}
+
+.todo {
+  border: #1a1a1a solid 1px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: rgb(220, 20, 60, .6);
+}
+
+img {
+  height: 150px;
+  margin: 5px;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,35 +1,30 @@
 import React, { Component } from 'react';
-import Die from './Die'
+import DiceContainer from './DiceContainer';
 
 class DiceBox extends Component {
     constructor(props) {
         super(props)
 
         this.state = {
-            roll: [1, 2, 3, 4, 5, 6]
+            dice: []
         }
     }
 
-    handleSubmit = e => {
-        e.preventDefault()
+    handleClick = e => {
+        // e.preventDefault()
+        const dice = Math.floor(Math.random()*6)
         this.setState(prev => {
-            prev.roll =  Math.floor(Math.random()*6)
+            return {
+                dice: [...prev.dice, dice]
+            }
         })
     }
 
     render() {
-        let {roll} = this.state
-        console.log(roll)
-        const diceMap = roll.map( die => <Die one={die[0]}
-                                            two={die[1]}
-                                            three={die[2]}
-                                            four={die[3]}
-                                            five={die[4]}
-                                            six={die[5]}/>)
         return (
-            <div onSubmit={this.handleSubmit} className='diceBox'>
-                {diceMap}
-                <button>Roll</button>
+            <div className='diceBox'>
+                <DiceContainer dice={this.state.dice}/>
+                <button onClick={this.handleClick}>dice</button>
             </div>
         );
     }

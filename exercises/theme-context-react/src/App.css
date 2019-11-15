@@ -1,0 +1,32 @@
+.mainLight {
+  background-color: gray;
+  color: black;
+  margin: -8px;
+  height: 100vh;
+  position: relative;
+  top: -13px;
+}
+
+.mainDark {
+  background-color: #1a1a1a;
+  color: darkorange;
+  margin: -8px;
+  height: 100vh;
+  position: relative;
+  top: -13px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: -8px;
+  height: 50px;
+}
+
+.nav > div {
+  margin: 15px;
+}
+
+.footer {
+  text-align: center;
+}

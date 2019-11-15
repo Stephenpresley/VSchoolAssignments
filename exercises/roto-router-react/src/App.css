@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    height: 75px;
+    width: 100%;
+    background-color: burlywood;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.home {
+    background-image: url(http://www.followingthetrend.com/wp-content/uploads/2014/06/face-plunger.jpg);
+    height: 584px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+
+.services {
+    background-image: url(http://www.followingthetrend.com/wp-content/uploads/2014/06/face-plunger.jpg);
+    height: 584px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+
+.about {
+    background-image: url(http://www.followingthetrend.com/wp-content/uploads/2014/06/face-plunger.jpg);
+    height: 584px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+
+.footer {
+    position: relative;
+    bottom: -45px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline dotted;
+}

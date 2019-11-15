@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin: 120px;
+}
+
+.App {
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/19/09/10/air-2241580_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: #1a1a1a;
+    color: crimson;
+}
+.header > h1 {
+    margin: 20px;
+}
+
+.don {
+    height: 80px;
+    width: 80px;
+}
+
+/* .todo > h2{
+    
+} */
+
+img {
+    width: 50%
+}

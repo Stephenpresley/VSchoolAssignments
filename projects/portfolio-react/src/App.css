@@ -1,0 +1,274 @@
+#root, p, h3, h4 {
+  margin: 0;
+}
+
+#root {
+  padding: 0;
+  font-family: "Fira Code";
+  line-height: 1.5;
+  color: #444;
+}
+
+.divider {
+  background-color: #fd4e4e;
+  height: 0.25em;
+}
+
+.container {
+  width: 70%;
+  max-width: 64em;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.header-title {
+  font-family: 'Fira Code';
+  line-height: initial;
+  padding: 1.5em 0;
+  color: #1a1a1a;
+}
+
+.header-title h1 {
+  font-weight: 800;
+  font-size: 3em;
+  letter-spacing: 0.375em;
+  margin: 0;
+}
+
+.header-title h2 {
+  font-weight: 300;
+  font-size: 2.75em;
+  letter-spacing: 0.375em;
+  margin: 0;
+}
+
+.tag {
+  margin: auto 0;
+}
+
+.tag p:first-child {
+  padding-top: 0;
+}
+
+.tag p {
+  width: 80%;
+  margin: 0;
+  padding-top: 1em;
+  font-size: 2.25em;
+  font-weight: 300;
+}
+
+.footer {
+  margin-top: 3em;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1em 0;
+}
+
+.contact a {
+  font-family: "Fira Code";
+  font-weight: normal;
+  font-size: 1.25em;
+  text-decoration: none;
+  padding: 0 0.5em;
+}
+
+.intro-text {
+  font-weight: 300;
+  position: relative;
+}
+
+.intro-text .intro-header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: left;
+}
+
+h3 {
+  color: #fd4e4e;
+  font-size: 2em;
+  font-family: "Fira Code";
+  font-weight: normal;
+}
+
+.intro-text .toggle {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+}
+
+.intro-text .toggle span:first-child {
+  color: #fd4e4e;
+}
+
+.intro-text .toggle span {
+  color: #888;
+  transition: color 0.4s;
+}
+
+.intro-text .toggle input {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  -webkit-appearance: checkbox;
+  box-sizing: border-box;
+  margin: 3px 0.5ex;
+  padding: initial;
+  border: initial;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 11px system-ui;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+.toggle   input+label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  margin: 0 0.5em;
+  padding: .1em;
+  width: 4em;
+  height: 2em;
+  background-color: #dddddd;
+  border-radius: 2em;
+  transition: background 0.4s;
+}
+
+.toggle input+label:before {
+  top: .1em;
+  left: .1em;
+  right: .1em;
+  bottom: .1em;
+  background-color: #fff;
+  border-radius: 2em;
+  transition: background 0.4s;
+}
+
+.toggle input+label:after {
+  top: .2em;
+  left: .2em;
+  bottom: .2em;
+  width: 1.8em;
+  background-color: #dddddd;
+  border-radius: 1.8em;
+  transition: margin 0.4s;
+}
+
+.intro-text .toggle input:checked+label:after {
+  margin-left: 2em;
+}
+
+.intro-text .toggle input+label:before, .intro-text .toggle input+label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+
+.intro-text .toggle span {
+  color: #888;
+  transition: color 0.4s;
+}
+
+.intro-text ul {
+  font-size: 1.5em;
+  /* position: absolute; */
+  left: 0;
+  margin: 0.5 em 0 0;
+}
+
+ul {
+  list-style: none;
+  margin: 1em 0;
+  padding-left: 40px;
+  display: block;
+  /* list-style-type: disc; */
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.intro-text ul li {
+  padding-bottom: 0.5em;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.intro-text div p {
+  padding: 0.25em 0;
+  font-size: 1.2em;
+}
+
+.intro-text .intro-header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: left;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.projects {
+  width: 110%;
+}
+
+a {
+  color: #fd4e4e;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline dotted;
+}
