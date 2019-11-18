@@ -8,10 +8,6 @@ const Header = () => {
                 <h2>PRESLEY</h2>
             </div>
             <div className='divider'></div>
-            <div className='tag'>
-                <p>test</p>
-                <p>test</p>
-            </div>
         </header>
     );
 };
